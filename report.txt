@@ -1,0 +1,1 @@
+My implementation of the solution was tested against all of the provided TestFiles and produced the correct output. I also used valgrind to determine that there are no memory errors/leaks.

@@ -1,0 +1,3 @@
+make clean
+make anagramtest
+valgrind --leak-check=full ./anagramtest ./TestFiles/A.dict output.out

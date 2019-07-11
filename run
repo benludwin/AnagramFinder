@@ -1,0 +1,6 @@
+#! /bin/bash
+
+make clean
+make anagram
+./anagram ./TestFiles/A-B-C.dict ./output.out
+diff output.out ./TestFiles/A-B-C.out
